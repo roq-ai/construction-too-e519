@@ -1,0 +1,2472 @@
+[
+  {
+    "store": [
+      {
+        "id": "7b0aa4c6-2102-437e-b98a-d24a6103e250",
+        "name": "ABC Store",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "store1@example.com",
+        "created_at": "2023-10-10T07:25:19.988Z",
+        "updated_at": "2023-10-10T02:30:56.947Z"
+      },
+      {
+        "id": "310439af-8160-441f-896d-cf4bdb1b7ba8",
+        "name": "XYZ Store",
+        "address": "456 Elm Street",
+        "phone_number": "555-123-4567",
+        "email": "store2@example.com",
+        "created_at": "2023-10-09T23:33:36.864Z",
+        "updated_at": "2023-10-09T21:10:01.880Z"
+      },
+      {
+        "id": "f679f204-7960-4a8d-9b31-5113a31ed5bf",
+        "name": "123 Store",
+        "address": "789 Oak Street",
+        "phone_number": "987-654-3210",
+        "email": "store3@example.com",
+        "created_at": "2023-10-09T18:10:35.289Z",
+        "updated_at": "2023-10-10T01:08:18.060Z"
+      },
+      {
+        "id": "cde6b898-8932-4c67-b617-c004244615e9",
+        "name": "Best Buy",
+        "address": "10 Maple Avenue",
+        "phone_number": "888-555-1234",
+        "email": "store4@example.com",
+        "created_at": "2023-10-10T06:09:13.918Z",
+        "updated_at": "2023-10-09T13:16:13.276Z"
+      },
+      {
+        "id": "dbfef761-9e0f-49b5-a2a1-32fa8522eeff",
+        "name": "Super Mart",
+        "address": "15 Pine Road",
+        "phone_number": "777-999-8888",
+        "email": "store5@example.com",
+        "created_at": "2023-10-10T09:29:42.662Z",
+        "updated_at": "2023-10-10T09:43:10.533Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "c21059f8-9c37-4cc4-a0af-164f29fb4c45",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price_per_day": 51168,
+        "available": true,
+        "created_at": "2023-10-09T14:29:08.245Z",
+        "updated_at": "2023-10-10T11:19:55.861Z",
+        "store_id": "dbfef761-9e0f-49b5-a2a1-32fa8522eeff"
+      },
+      {
+        "id": "29a8214a-60da-4b33-95e0-c9ea017ea5cf",
+        "name": "Screwdriver",
+        "description": "Ideal for tightening or loosening screws",
+        "price_per_day": 15300,
+        "available": false,
+        "created_at": "2023-10-10T09:12:22.061Z",
+        "updated_at": "2023-10-09T16:44:35.697Z",
+        "store_id": "f679f204-7960-4a8d-9b31-5113a31ed5bf"
+      },
+      {
+        "id": "a612d931-2dc4-4ee2-bedd-9d085c5eb63a",
+        "name": "Wrench",
+        "description": "Used for gripping and turning objects",
+        "price_per_day": 11561,
+        "available": false,
+        "created_at": "2023-10-10T01:58:11.491Z",
+        "updated_at": "2023-10-10T00:51:45.776Z",
+        "store_id": "dbfef761-9e0f-49b5-a2a1-32fa8522eeff"
+      },
+      {
+        "id": "dc6ea561-c61b-479a-bf78-3898e59a5946",
+        "name": "Pliers",
+        "description": "Great for drilling holes in different materials",
+        "price_per_day": 48574,
+        "available": true,
+        "created_at": "2023-10-09T23:15:06.959Z",
+        "updated_at": "2023-10-10T03:35:48.343Z",
+        "store_id": "310439af-8160-441f-896d-cf4bdb1b7ba8"
+      },
+      {
+        "id": "9f1a82b0-1475-4005-9a58-0e90fc2e7b18",
+        "name": "Drill",
+        "description": "Essential tool for any toolbox",
+        "price_per_day": 75544,
+        "available": false,
+        "created_at": "2023-10-09T14:14:09.952Z",
+        "updated_at": "2023-10-09T19:08:30.683Z",
+        "store_id": "dbfef761-9e0f-49b5-a2a1-32fa8522eeff"
+      }
+    ],
+    "rental": [
+      {
+        "id": "0c1a1b69-23dd-4f3e-af06-d432a5740a2a",
+        "rental_start_date": "2023-10-10T10:45:24.855Z",
+        "rental_end_date": "2023-10-09T15:39:22.253Z",
+        "total_price": 70054,
+        "created_at": "2023-10-10T09:04:53.084Z",
+        "updated_at": "2023-10-10T00:02:22.720Z",
+        "tool_id": "29a8214a-60da-4b33-95e0-c9ea017ea5cf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "facaeb87-d84d-4a15-ab9e-8e33e0819c6b",
+        "rental_start_date": "2023-10-10T07:21:12.471Z",
+        "rental_end_date": "2023-10-10T09:02:23.752Z",
+        "total_price": 10233,
+        "created_at": "2023-10-10T09:08:36.330Z",
+        "updated_at": "2023-10-09T17:50:02.991Z",
+        "tool_id": "9f1a82b0-1475-4005-9a58-0e90fc2e7b18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d1060bf-de62-4181-b4b1-7a1e1802c377",
+        "rental_start_date": "2023-10-09T15:58:21.136Z",
+        "rental_end_date": "2023-10-10T05:05:23.699Z",
+        "total_price": 48916,
+        "created_at": "2023-10-09T12:42:12.495Z",
+        "updated_at": "2023-10-10T10:30:18.303Z",
+        "tool_id": "9f1a82b0-1475-4005-9a58-0e90fc2e7b18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1495bed8-590d-44ae-a092-2ab702aea179",
+        "rental_start_date": "2023-10-10T04:57:14.143Z",
+        "rental_end_date": "2023-10-09T16:27:54.152Z",
+        "total_price": 40749,
+        "created_at": "2023-10-10T10:54:35.113Z",
+        "updated_at": "2023-10-10T00:23:29.024Z",
+        "tool_id": "c21059f8-9c37-4cc4-a0af-164f29fb4c45",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ad27997-3128-483f-8290-ce84d1602405",
+        "rental_start_date": "2023-10-10T01:29:34.598Z",
+        "rental_end_date": "2023-10-10T05:14:34.472Z",
+        "total_price": 34061,
+        "created_at": "2023-10-10T12:02:38.023Z",
+        "updated_at": "2023-10-09T18:53:26.255Z",
+        "tool_id": "9f1a82b0-1475-4005-9a58-0e90fc2e7b18",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "34d03113-c89a-4508-b484-b2b4cdc1529f",
+        "amount_due": 51129,
+        "payment_status": "Paid",
+        "due_date": "2023-10-09T22:26:36.196Z",
+        "created_at": "2023-10-10T00:24:41.582Z",
+        "updated_at": "2023-10-10T11:29:02.743Z",
+        "rental_id": "0c1a1b69-23dd-4f3e-af06-d432a5740a2a"
+      },
+      {
+        "id": "3aaa0631-a392-403f-bc7a-d11eb0d49405",
+        "amount_due": 6444,
+        "payment_status": "Pending",
+        "due_date": "2023-10-10T02:52:14.140Z",
+        "created_at": "2023-10-10T01:51:46.694Z",
+        "updated_at": "2023-10-09T18:50:56.233Z",
+        "rental_id": "1495bed8-590d-44ae-a092-2ab702aea179"
+      },
+      {
+        "id": "31e80eeb-c9d1-44e5-8742-d53ad96c826f",
+        "amount_due": 81710,
+        "payment_status": "Overdue",
+        "due_date": "2023-10-10T00:20:16.633Z",
+        "created_at": "2023-10-10T09:22:09.268Z",
+        "updated_at": "2023-10-09T13:56:19.332Z",
+        "rental_id": "facaeb87-d84d-4a15-ab9e-8e33e0819c6b"
+      },
+      {
+        "id": "927475c8-52c0-492b-bb5e-22ce5c697dfc",
+        "amount_due": 17212,
+        "payment_status": "Unpaid",
+        "due_date": "2023-10-09T12:24:47.720Z",
+        "created_at": "2023-10-09T16:52:30.504Z",
+        "updated_at": "2023-10-09T12:12:30.458Z",
+        "rental_id": "7d1060bf-de62-4181-b4b1-7a1e1802c377"
+      },
+      {
+        "id": "b775a394-3aec-4b71-8352-937fc8600c32",
+        "amount_due": 94897,
+        "payment_status": "Cancelled",
+        "due_date": "2023-10-10T06:17:42.680Z",
+        "created_at": "2023-10-09T15:11:38.927Z",
+        "updated_at": "2023-10-10T09:49:27.037Z",
+        "rental_id": "1495bed8-590d-44ae-a092-2ab702aea179"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3fb136d8-0489-4e5d-9922-94872bdd5161",
+        "email": "Lori_Kerluke@roq.tech",
+        "firstName": "Myrtle",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1010.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d2b2d887-ac97-4db7-a0af-59371c9551b7",
+        "email": "Ethyl.Kuvalis7@roq.tech",
+        "firstName": "Lelah",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/771.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b0c0dfb7-6b72-4b47-a42d-d6f086587d3e",
+        "email": "Camylle_Bogisich@roq.tech",
+        "firstName": "Harvey",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/592.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "18bed08d-b07a-4653-8973-00081f3b057c",
+        "email": "Sadye99@roq.tech",
+        "firstName": "Laurence",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82151132",
+        "tenantId": null
+      },
+      {
+        "reference": "82127289-ba9a-41a0-8477-6b2a36a4426c",
+        "email": "Amina.Bradtke60@roq.tech",
+        "firstName": "Darron",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53020551",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "732f3b80-a05c-462f-b132-f022616797bf",
+        "name": "ABC Store",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "store1@example.com",
+        "created_at": "2023-10-09T23:51:31.846Z",
+        "updated_at": "2023-10-09T15:05:13.385Z"
+      },
+      {
+        "id": "b937da50-48c1-4b3f-a4f0-90df780b0958",
+        "name": "XYZ Store",
+        "address": "456 Elm Avenue",
+        "phone_number": "987-654-3210",
+        "email": "store2@example.com",
+        "created_at": "2023-10-09T12:49:29.148Z",
+        "updated_at": "2023-10-09T20:21:58.411Z"
+      },
+      {
+        "id": "851713b3-4d53-4c5f-b8d1-e297a159b32e",
+        "name": "123 Store",
+        "address": "789 Oak Drive",
+        "phone_number": "555-123-4567",
+        "email": "store3@example.com",
+        "created_at": "2023-10-10T07:52:57.048Z",
+        "updated_at": "2023-10-09T13:47:55.014Z"
+      },
+      {
+        "id": "e59a3cb4-72cc-4fc4-83c8-eab6459d9158",
+        "name": "Main Street Store",
+        "address": "321 Pine Street",
+        "phone_number": "888-999-0000",
+        "email": "store4@example.com",
+        "created_at": "2023-10-09T20:11:16.317Z",
+        "updated_at": "2023-10-10T06:47:10.712Z"
+      },
+      {
+        "id": "2e00ae2e-21dc-457c-95b3-fbda4de94ea1",
+        "name": "City Center Store",
+        "address": "987 Maple Avenue",
+        "phone_number": "111-222-3333",
+        "email": "store5@example.com",
+        "created_at": "2023-10-09T14:58:39.021Z",
+        "updated_at": "2023-10-09T18:42:01.767Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "2ae80d43-636c-4914-bb20-7b536ea88f40",
+        "name": "Hammer",
+        "description": "A versatile tool for pounding nails",
+        "price_per_day": 89891,
+        "available": false,
+        "created_at": "2023-10-10T09:41:54.057Z",
+        "updated_at": "2023-10-09T12:54:06.124Z",
+        "store_id": "b937da50-48c1-4b3f-a4f0-90df780b0958"
+      },
+      {
+        "id": "1ce0ad43-e8db-4d09-a281-89a142116874",
+        "name": "Screwdriver",
+        "description": "Used for tightening or loosening screws",
+        "price_per_day": 65136,
+        "available": true,
+        "created_at": "2023-10-10T00:07:38.980Z",
+        "updated_at": "2023-10-09T13:40:31.939Z",
+        "store_id": "732f3b80-a05c-462f-b132-f022616797bf"
+      },
+      {
+        "id": "f4c996ea-4d15-48d1-bb84-4760fbd1e0f1",
+        "name": "Wrench",
+        "description": "Great for turning nuts and bolts",
+        "price_per_day": 39149,
+        "available": false,
+        "created_at": "2023-10-09T13:24:07.899Z",
+        "updated_at": "2023-10-09T20:19:14.645Z",
+        "store_id": "b937da50-48c1-4b3f-a4f0-90df780b0958"
+      },
+      {
+        "id": "b740e1ba-b1de-4ede-a6cc-aed06a0f4ea4",
+        "name": "Pliers",
+        "description": "Ideal for gripping and bending wires",
+        "price_per_day": 81578,
+        "available": true,
+        "created_at": "2023-10-10T09:15:41.912Z",
+        "updated_at": "2023-10-09T18:48:56.140Z",
+        "store_id": "b937da50-48c1-4b3f-a4f0-90df780b0958"
+      },
+      {
+        "id": "842a4e5a-efa8-4a9b-bff4-ce0389e8288d",
+        "name": "Drill",
+        "description": "Perfect for drilling holes in various materials",
+        "price_per_day": 45803,
+        "available": true,
+        "created_at": "2023-10-10T00:54:59.066Z",
+        "updated_at": "2023-10-10T05:41:11.107Z",
+        "store_id": "732f3b80-a05c-462f-b132-f022616797bf"
+      }
+    ],
+    "rental": [
+      {
+        "id": "e0475605-c57d-4e06-b37b-a3ed9c78950f",
+        "rental_start_date": "2023-10-10T02:54:59.325Z",
+        "rental_end_date": "2023-10-10T07:51:39.327Z",
+        "total_price": 6998,
+        "created_at": "2023-10-09T14:33:36.605Z",
+        "updated_at": "2023-10-09T15:28:16.767Z",
+        "tool_id": "2ae80d43-636c-4914-bb20-7b536ea88f40",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a4ac166-0e8e-4175-9a1d-a1149457dc25",
+        "rental_start_date": "2023-10-10T06:36:55.381Z",
+        "rental_end_date": "2023-10-09T16:45:39.174Z",
+        "total_price": 13205,
+        "created_at": "2023-10-09T16:29:32.596Z",
+        "updated_at": "2023-10-10T03:30:16.551Z",
+        "tool_id": "f4c996ea-4d15-48d1-bb84-4760fbd1e0f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f834e15a-6e06-4371-a15c-d26a1f6e604f",
+        "rental_start_date": "2023-10-09T15:04:03.456Z",
+        "rental_end_date": "2023-10-10T10:07:46.492Z",
+        "total_price": 31058,
+        "created_at": "2023-10-09T13:40:53.768Z",
+        "updated_at": "2023-10-09T15:39:11.013Z",
+        "tool_id": "b740e1ba-b1de-4ede-a6cc-aed06a0f4ea4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c65cafa-ffdd-48fd-a8ee-17ea4c066871",
+        "rental_start_date": "2023-10-09T17:06:22.889Z",
+        "rental_end_date": "2023-10-09T21:46:09.616Z",
+        "total_price": 76053,
+        "created_at": "2023-10-10T02:12:00.340Z",
+        "updated_at": "2023-10-10T04:10:43.074Z",
+        "tool_id": "2ae80d43-636c-4914-bb20-7b536ea88f40",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93711f57-3b35-494b-8a56-4eab51e18e54",
+        "rental_start_date": "2023-10-10T04:00:34.893Z",
+        "rental_end_date": "2023-10-09T17:16:25.660Z",
+        "total_price": 27149,
+        "created_at": "2023-10-09T16:29:48.173Z",
+        "updated_at": "2023-10-10T03:11:10.363Z",
+        "tool_id": "b740e1ba-b1de-4ede-a6cc-aed06a0f4ea4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "c9b38073-bb9a-4ad8-b066-95984bee5f0a",
+        "amount_due": 80240,
+        "payment_status": "Paid",
+        "due_date": "2023-10-09T22:30:19.577Z",
+        "created_at": "2023-10-10T00:38:36.948Z",
+        "updated_at": "2023-10-09T18:49:48.709Z",
+        "rental_id": "5c65cafa-ffdd-48fd-a8ee-17ea4c066871"
+      },
+      {
+        "id": "0a13a4a3-8758-4856-ab32-ce70057e48f1",
+        "amount_due": 36813,
+        "payment_status": "Pending",
+        "due_date": "2023-10-09T16:02:11.561Z",
+        "created_at": "2023-10-09T20:10:04.073Z",
+        "updated_at": "2023-10-09T18:56:57.450Z",
+        "rental_id": "5c65cafa-ffdd-48fd-a8ee-17ea4c066871"
+      },
+      {
+        "id": "31b26628-21db-4b94-a678-61fba56c8fb3",
+        "amount_due": 53542,
+        "payment_status": "Overdue",
+        "due_date": "2023-10-10T07:41:44.898Z",
+        "created_at": "2023-10-09T12:32:33.967Z",
+        "updated_at": "2023-10-10T06:31:37.471Z",
+        "rental_id": "93711f57-3b35-494b-8a56-4eab51e18e54"
+      },
+      {
+        "id": "5a5bf0d3-8b77-46bf-9a9c-d0ceb9a148b5",
+        "amount_due": 74724,
+        "payment_status": "Cancelled",
+        "due_date": "2023-10-09T13:19:55.313Z",
+        "created_at": "2023-10-10T08:13:39.214Z",
+        "updated_at": "2023-10-10T00:24:22.061Z",
+        "rental_id": "e0475605-c57d-4e06-b37b-a3ed9c78950f"
+      },
+      {
+        "id": "ec051618-a573-4872-bcb9-130e4dc05d70",
+        "amount_due": 46505,
+        "payment_status": "Refunded",
+        "due_date": "2023-10-10T10:22:43.230Z",
+        "created_at": "2023-10-09T17:16:13.139Z",
+        "updated_at": "2023-10-09T14:25:24.130Z",
+        "rental_id": "5a4ac166-0e8e-4175-9a1d-a1149457dc25"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6c4d92d3-57f7-45af-818b-2fa926f78f88",
+        "email": "Griffin67@roq.tech",
+        "firstName": "Wilburn",
+        "lastName": "Howell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/610.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4062222-9cb8-4563-9908-846f3a5b91bb",
+        "email": "Heidi.OReilly@roq.tech",
+        "firstName": "Nasir",
+        "lastName": "Franey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/519.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "36016343-119f-4d9b-bdd9-080191317546",
+        "email": "Dereck.Jacobs-Parisian@roq.tech",
+        "firstName": "Elisa",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/561.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "431860eb-e6cf-4be8-b634-d0ffc58f8e2b",
+        "email": "Wilford.Weimann94@roq.tech",
+        "firstName": "Devonte",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52701157",
+        "tenantId": null
+      },
+      {
+        "reference": "45f37ac8-edfa-4948-a089-76d5e5c47fe6",
+        "email": "Halie_Nitzsche@roq.tech",
+        "firstName": "Jason",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59876803",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "24f154b6-2b17-4465-bd4b-3445cf086666",
+        "name": "ABC Store",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "store1@example.com",
+        "created_at": "2023-10-09T18:17:44.868Z",
+        "updated_at": "2023-10-10T07:28:27.530Z"
+      },
+      {
+        "id": "d51ecbf9-9f66-40ed-b19e-a47ed1490a11",
+        "name": "XYZ Shop",
+        "address": "456 Elm Avenue",
+        "phone_number": "987-654-3210",
+        "email": "store2@example.com",
+        "created_at": "2023-10-10T01:48:48.691Z",
+        "updated_at": "2023-10-09T23:03:15.548Z"
+      },
+      {
+        "id": "c5777e35-dcfb-4218-9058-1784e78a3093",
+        "name": "Sunshine Market",
+        "address": "789 Oak Drive",
+        "phone_number": "555-123-4567",
+        "email": "store3@example.com",
+        "created_at": "2023-10-09T12:52:25.801Z",
+        "updated_at": "2023-10-10T00:14:20.412Z"
+      },
+      {
+        "id": "85b5bb5f-ce31-4f5c-b48d-a97f7fb0adb3",
+        "name": "City Mart",
+        "address": "321 Pine Lane",
+        "phone_number": "888-999-0000",
+        "email": "store4@example.com",
+        "created_at": "2023-10-09T20:25:52.042Z",
+        "updated_at": "2023-10-10T04:23:39.664Z"
+      },
+      {
+        "id": "44ae6e49-dd6f-4ee9-b4fd-66881f7fb5f1",
+        "name": "Green Valley Store",
+        "address": "654 Maple Road",
+        "phone_number": "444-555-6666",
+        "email": "store5@example.com",
+        "created_at": "2023-10-10T03:18:07.573Z",
+        "updated_at": "2023-10-10T07:03:50.703Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "51bb96aa-078e-45a4-948b-312535e0389f",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price_per_day": 65416,
+        "available": true,
+        "created_at": "2023-10-10T08:46:21.328Z",
+        "updated_at": "2023-10-09T12:16:45.010Z",
+        "store_id": "24f154b6-2b17-4465-bd4b-3445cf086666"
+      },
+      {
+        "id": "c9b94fe0-ee3c-4cc4-b3ee-36b9625fb1f4",
+        "name": "Screwdriver",
+        "description": "Perfect for tightening or loosening screws",
+        "price_per_day": 4461,
+        "available": true,
+        "created_at": "2023-10-10T08:12:02.014Z",
+        "updated_at": "2023-10-09T23:59:52.796Z",
+        "store_id": "44ae6e49-dd6f-4ee9-b4fd-66881f7fb5f1"
+      },
+      {
+        "id": "498c0c69-c0e2-4c6c-b2ca-5c46be6efb70",
+        "name": "Wrench",
+        "description": "Ideal for plumbing repairs",
+        "price_per_day": 49210,
+        "available": false,
+        "created_at": "2023-10-10T03:47:12.648Z",
+        "updated_at": "2023-10-10T04:41:49.241Z",
+        "store_id": "85b5bb5f-ce31-4f5c-b48d-a97f7fb0adb3"
+      },
+      {
+        "id": "dd3616cb-4140-4c59-8d02-910b57b8a10a",
+        "name": "Pliers",
+        "description": "Great for gripping and bending wires",
+        "price_per_day": 86787,
+        "available": false,
+        "created_at": "2023-10-10T08:08:05.942Z",
+        "updated_at": "2023-10-09T22:01:03.681Z",
+        "store_id": "85b5bb5f-ce31-4f5c-b48d-a97f7fb0adb3"
+      },
+      {
+        "id": "da0272c7-519b-4edd-9e3c-e322f8eb0008",
+        "name": "Drill",
+        "description": "Essential for drilling holes",
+        "price_per_day": 38240,
+        "available": true,
+        "created_at": "2023-10-10T11:37:56.242Z",
+        "updated_at": "2023-10-09T19:19:10.757Z",
+        "store_id": "24f154b6-2b17-4465-bd4b-3445cf086666"
+      }
+    ],
+    "rental": [
+      {
+        "id": "868741bc-ac1a-4f99-8125-3824b69f59d5",
+        "rental_start_date": "2023-10-09T23:23:28.357Z",
+        "rental_end_date": "2023-10-10T06:17:45.693Z",
+        "total_price": 54406,
+        "created_at": "2023-10-10T08:03:16.546Z",
+        "updated_at": "2023-10-09T23:17:20.519Z",
+        "tool_id": "dd3616cb-4140-4c59-8d02-910b57b8a10a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76bf5087-fcf2-4314-a75d-d235bd667a8d",
+        "rental_start_date": "2023-10-10T00:57:53.375Z",
+        "rental_end_date": "2023-10-09T18:50:34.887Z",
+        "total_price": 95752,
+        "created_at": "2023-10-10T05:31:53.615Z",
+        "updated_at": "2023-10-10T09:23:27.988Z",
+        "tool_id": "498c0c69-c0e2-4c6c-b2ca-5c46be6efb70",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "521e582e-20c3-4dda-b37d-d162e22af57a",
+        "rental_start_date": "2023-10-09T15:07:00.213Z",
+        "rental_end_date": "2023-10-09T13:53:43.405Z",
+        "total_price": 24856,
+        "created_at": "2023-10-09T20:22:39.245Z",
+        "updated_at": "2023-10-10T03:06:39.969Z",
+        "tool_id": "dd3616cb-4140-4c59-8d02-910b57b8a10a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "074b5cd5-9613-4375-99b6-ba3a7b500aa0",
+        "rental_start_date": "2023-10-10T08:50:39.610Z",
+        "rental_end_date": "2023-10-09T21:55:12.245Z",
+        "total_price": 74991,
+        "created_at": "2023-10-09T14:51:18.302Z",
+        "updated_at": "2023-10-09T13:35:46.369Z",
+        "tool_id": "dd3616cb-4140-4c59-8d02-910b57b8a10a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db171a5b-a667-43ad-acd1-43fa8eab56af",
+        "rental_start_date": "2023-10-09T23:44:57.763Z",
+        "rental_end_date": "2023-10-10T00:15:27.923Z",
+        "total_price": 64742,
+        "created_at": "2023-10-09T17:29:08.533Z",
+        "updated_at": "2023-10-10T06:52:22.854Z",
+        "tool_id": "dd3616cb-4140-4c59-8d02-910b57b8a10a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "18713393-353b-49f1-a29f-cd3280cb3f4c",
+        "amount_due": 56988,
+        "payment_status": "Paid",
+        "due_date": "2023-10-10T10:32:55.093Z",
+        "created_at": "2023-10-10T04:11:04.515Z",
+        "updated_at": "2023-10-09T17:25:01.692Z",
+        "rental_id": "074b5cd5-9613-4375-99b6-ba3a7b500aa0"
+      },
+      {
+        "id": "4f23ae5b-972b-4af5-87de-fa2f41bfef3a",
+        "amount_due": 25589,
+        "payment_status": "Pending",
+        "due_date": "2023-10-09T18:33:54.730Z",
+        "created_at": "2023-10-09T15:49:07.969Z",
+        "updated_at": "2023-10-10T09:08:06.047Z",
+        "rental_id": "76bf5087-fcf2-4314-a75d-d235bd667a8d"
+      },
+      {
+        "id": "d63bf596-b602-4038-a77f-46a3d7aa2c65",
+        "amount_due": 5628,
+        "payment_status": "Overdue",
+        "due_date": "2023-10-09T18:16:34.138Z",
+        "created_at": "2023-10-10T02:27:57.174Z",
+        "updated_at": "2023-10-09T16:29:25.553Z",
+        "rental_id": "074b5cd5-9613-4375-99b6-ba3a7b500aa0"
+      },
+      {
+        "id": "d25274f1-74ad-4963-8295-785ec20ff22d",
+        "amount_due": 35689,
+        "payment_status": "Cancelled",
+        "due_date": "2023-10-09T14:24:34.045Z",
+        "created_at": "2023-10-10T11:39:07.112Z",
+        "updated_at": "2023-10-09T17:03:59.768Z",
+        "rental_id": "521e582e-20c3-4dda-b37d-d162e22af57a"
+      },
+      {
+        "id": "455fa540-aa13-4d7f-aa68-b936a9946386",
+        "amount_due": 26705,
+        "payment_status": "Refunded",
+        "due_date": "2023-10-10T11:20:54.384Z",
+        "created_at": "2023-10-10T05:52:32.132Z",
+        "updated_at": "2023-10-10T10:42:23.367Z",
+        "rental_id": "074b5cd5-9613-4375-99b6-ba3a7b500aa0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c0c3d0fc-f7cc-4dea-b953-299f469f5ac7",
+        "email": "Ima17@roq.tech",
+        "firstName": "Dillan",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/275.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64172945-9b7d-48df-b287-c682a322cb83",
+        "email": "Cameron.Kuphal72@roq.tech",
+        "firstName": "Daniella",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/727.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4520c466-5552-41f6-9fa5-fd84e954e242",
+        "email": "Haven10@roq.tech",
+        "firstName": "Judy",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49785613",
+        "tenantId": null
+      },
+      {
+        "reference": "a04c1265-7a83-4485-ba27-6bbb1d6864b7",
+        "email": "Aylin73@roq.tech",
+        "firstName": "Manuel",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1062.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3bf7f111-5309-4bc0-a223-507329b42ed5",
+        "email": "Ladarius.Nicolas@roq.tech",
+        "firstName": "Immanuel",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16329674",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "992461b1-5122-4e7c-b607-e3b6c391f721",
+        "name": "ABC Store",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "abcstore@example.com",
+        "created_at": "2023-10-09T21:58:47.743Z",
+        "updated_at": "2023-10-09T13:25:49.545Z"
+      },
+      {
+        "id": "6baee32f-f568-482c-945f-77c619b6384b",
+        "name": "XYZ Shop",
+        "address": "456 Elm Avenue",
+        "phone_number": "987-654-3210",
+        "email": "xyzshop@example.com",
+        "created_at": "2023-10-09T14:09:13.170Z",
+        "updated_at": "2023-10-09T19:26:39.129Z"
+      },
+      {
+        "id": "26c9e0b7-ce48-4d44-ae8c-d59e4653a5d9",
+        "name": "Sunshine Mart",
+        "address": "789 Oak Drive",
+        "phone_number": "555-123-4567",
+        "email": "sunshinemart@example.com",
+        "created_at": "2023-10-10T03:34:55.698Z",
+        "updated_at": "2023-10-09T13:29:11.305Z"
+      },
+      {
+        "id": "121b1e07-06b7-47ef-b3b0-543daf030979",
+        "name": "Green Valley Market",
+        "address": "321 Pine Lane",
+        "phone_number": "999-888-7777",
+        "email": "greenvalleymarket@example.com",
+        "created_at": "2023-10-09T20:12:15.285Z",
+        "updated_at": "2023-10-09T14:07:06.062Z"
+      },
+      {
+        "id": "2aa244bd-44a1-4ea9-9228-5950abb55b32",
+        "name": "City Supermarket",
+        "address": "654 Maple Road",
+        "phone_number": "444-555-6666",
+        "email": "citysupermarket@example.com",
+        "created_at": "2023-10-10T03:52:56.475Z",
+        "updated_at": "2023-10-10T11:53:44.505Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "583b8ae8-6a3a-4495-aac0-f00c3e35ea17",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price_per_day": 75255,
+        "available": false,
+        "created_at": "2023-10-09T17:21:02.899Z",
+        "updated_at": "2023-10-09T12:47:24.444Z",
+        "store_id": "6baee32f-f568-482c-945f-77c619b6384b"
+      },
+      {
+        "id": "a69f9ba9-6298-4f34-92bb-37a6aadd2eba",
+        "name": "Screwdriver",
+        "description": "Perfect for tightening or loosening screws",
+        "price_per_day": 83911,
+        "available": false,
+        "created_at": "2023-10-10T02:19:45.625Z",
+        "updated_at": "2023-10-09T14:40:43.168Z",
+        "store_id": "6baee32f-f568-482c-945f-77c619b6384b"
+      },
+      {
+        "id": "b47081dc-cf1f-4e4f-9885-502077bba6f6",
+        "name": "Wrench",
+        "description": "Ideal for turning nuts and bolts",
+        "price_per_day": 65102,
+        "available": false,
+        "created_at": "2023-10-10T11:24:35.028Z",
+        "updated_at": "2023-10-10T04:18:36.745Z",
+        "store_id": "26c9e0b7-ce48-4d44-ae8c-d59e4653a5d9"
+      },
+      {
+        "id": "9aef1915-48e6-45ca-bcd0-135dafb2e464",
+        "name": "Pliers",
+        "description": "Great for gripping and bending wires",
+        "price_per_day": 80474,
+        "available": true,
+        "created_at": "2023-10-09T21:28:38.976Z",
+        "updated_at": "2023-10-09T18:10:57.920Z",
+        "store_id": "992461b1-5122-4e7c-b607-e3b6c391f721"
+      },
+      {
+        "id": "4fd2b27c-b256-4b92-8ab2-c4554ef81100",
+        "name": "Drill",
+        "description": "Essential for drilling holes",
+        "price_per_day": 40368,
+        "available": true,
+        "created_at": "2023-10-10T09:47:39.990Z",
+        "updated_at": "2023-10-09T12:30:58.694Z",
+        "store_id": "992461b1-5122-4e7c-b607-e3b6c391f721"
+      }
+    ],
+    "rental": [
+      {
+        "id": "fc80acee-8393-4d45-8360-c9cd09af8cfc",
+        "rental_start_date": "2023-10-09T22:44:15.417Z",
+        "rental_end_date": "2023-10-09T22:37:41.681Z",
+        "total_price": 88609,
+        "created_at": "2023-10-10T00:57:46.755Z",
+        "updated_at": "2023-10-09T19:58:29.207Z",
+        "tool_id": "4fd2b27c-b256-4b92-8ab2-c4554ef81100",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f896fea-c2bf-4895-9b28-5d67b0ef2451",
+        "rental_start_date": "2023-10-10T12:08:40.092Z",
+        "rental_end_date": "2023-10-10T03:51:06.832Z",
+        "total_price": 71119,
+        "created_at": "2023-10-10T07:07:34.217Z",
+        "updated_at": "2023-10-10T06:08:35.824Z",
+        "tool_id": "583b8ae8-6a3a-4495-aac0-f00c3e35ea17",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4deb2c24-e5fd-4a1e-b5ea-eb049ba1fee2",
+        "rental_start_date": "2023-10-10T00:39:20.932Z",
+        "rental_end_date": "2023-10-10T04:42:38.417Z",
+        "total_price": 35627,
+        "created_at": "2023-10-10T10:39:09.563Z",
+        "updated_at": "2023-10-10T05:01:00.169Z",
+        "tool_id": "9aef1915-48e6-45ca-bcd0-135dafb2e464",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3dcd37b-9620-47dc-9b14-1d6d3527c70c",
+        "rental_start_date": "2023-10-09T18:18:56.786Z",
+        "rental_end_date": "2023-10-09T19:23:03.552Z",
+        "total_price": 76238,
+        "created_at": "2023-10-10T09:38:52.696Z",
+        "updated_at": "2023-10-09T18:49:44.334Z",
+        "tool_id": "9aef1915-48e6-45ca-bcd0-135dafb2e464",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1894483-66e4-4b64-9df3-c65a71e4a4f4",
+        "rental_start_date": "2023-10-10T09:36:09.084Z",
+        "rental_end_date": "2023-10-10T00:28:35.137Z",
+        "total_price": 85157,
+        "created_at": "2023-10-09T23:06:54.526Z",
+        "updated_at": "2023-10-09T14:03:20.402Z",
+        "tool_id": "a69f9ba9-6298-4f34-92bb-37a6aadd2eba",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "87cc0f7f-e44f-4a58-9d6c-d3f01404264a",
+        "amount_due": 44804,
+        "payment_status": "Paid",
+        "due_date": "2023-10-09T23:33:45.027Z",
+        "created_at": "2023-10-09T12:38:09.189Z",
+        "updated_at": "2023-10-09T20:55:03.730Z",
+        "rental_id": "4deb2c24-e5fd-4a1e-b5ea-eb049ba1fee2"
+      },
+      {
+        "id": "1859469f-4cbd-4092-96b5-74c7a66430f7",
+        "amount_due": 99393,
+        "payment_status": "Pending",
+        "due_date": "2023-10-10T07:13:47.884Z",
+        "created_at": "2023-10-09T22:18:01.532Z",
+        "updated_at": "2023-10-09T20:02:28.722Z",
+        "rental_id": "1f896fea-c2bf-4895-9b28-5d67b0ef2451"
+      },
+      {
+        "id": "642cfa73-0f44-4a05-b25a-bf905fb9a2ca",
+        "amount_due": 6613,
+        "payment_status": "Overdue",
+        "due_date": "2023-10-10T07:28:25.341Z",
+        "created_at": "2023-10-09T17:26:05.758Z",
+        "updated_at": "2023-10-10T09:02:56.354Z",
+        "rental_id": "fc80acee-8393-4d45-8360-c9cd09af8cfc"
+      },
+      {
+        "id": "37dcab33-32d5-4669-abc3-55830d153761",
+        "amount_due": 54693,
+        "payment_status": "Cancelled",
+        "due_date": "2023-10-10T11:07:16.033Z",
+        "created_at": "2023-10-10T05:53:28.085Z",
+        "updated_at": "2023-10-10T06:42:36.047Z",
+        "rental_id": "4deb2c24-e5fd-4a1e-b5ea-eb049ba1fee2"
+      },
+      {
+        "id": "9ed2094f-ff5d-46d7-998a-cbf05a80f4fb",
+        "amount_due": 32499,
+        "payment_status": "Refunded",
+        "due_date": "2023-10-10T02:45:18.235Z",
+        "created_at": "2023-10-10T01:20:13.820Z",
+        "updated_at": "2023-10-09T13:57:01.045Z",
+        "rental_id": "fc80acee-8393-4d45-8360-c9cd09af8cfc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "682979e7-8ce4-405c-aad5-2ba5eebc14ee",
+        "email": "Isidro.Oberbrunner@roq.tech",
+        "firstName": "Douglas",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/910.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cc14a648-1ab3-4986-b638-7a40abb7c25d",
+        "email": "Hank_Kassulke@roq.tech",
+        "firstName": "Blake",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1098.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "22b802de-f6f8-4082-aecc-4b0c59cc0c6c",
+        "email": "Demarcus.Yost6@roq.tech",
+        "firstName": "Cornelius",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96512951",
+        "tenantId": null
+      },
+      {
+        "reference": "9533fe5a-2ce0-4844-900a-a73f83ca976b",
+        "email": "Lorena.Jaskolski65@roq.tech",
+        "firstName": "Vergie",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13323662",
+        "tenantId": null
+      },
+      {
+        "reference": "51d507bf-007e-4243-8f38-478be3548c15",
+        "email": "Imogene_Hartmann84@roq.tech",
+        "firstName": "Junius",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/344.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "2e909141-1b2d-42fe-807b-88000ce0f8e7",
+        "name": "ABC Store",
+        "address": "123 Main St",
+        "phone_number": "555-1234",
+        "email": "store1@example.com",
+        "created_at": "2023-10-10T01:40:17.267Z",
+        "updated_at": "2023-10-10T07:16:02.955Z"
+      },
+      {
+        "id": "9146be76-1b81-41bd-8e52-8f92c76abf19",
+        "name": "XYZ Store",
+        "address": "456 Elm St",
+        "phone_number": "555-5678",
+        "email": "store2@example.com",
+        "created_at": "2023-10-09T18:54:11.304Z",
+        "updated_at": "2023-10-10T04:11:17.905Z"
+      },
+      {
+        "id": "e582684a-0ca7-418b-8cc2-15eed5775a57",
+        "name": "123 Store",
+        "address": "789 Oak St",
+        "phone_number": "555-9012",
+        "email": "store3@example.com",
+        "created_at": "2023-10-10T08:21:27.060Z",
+        "updated_at": "2023-10-10T10:26:51.776Z"
+      },
+      {
+        "id": "ffc5a964-cf84-45b8-a652-4259a3d54613",
+        "name": "Best Buy",
+        "address": "321 Pine St",
+        "phone_number": "555-3456",
+        "email": "store4@example.com",
+        "created_at": "2023-10-09T14:07:56.467Z",
+        "updated_at": "2023-10-10T09:27:46.462Z"
+      },
+      {
+        "id": "4063a10d-2561-4804-b016-aaa841e3400e",
+        "name": "Super Mart",
+        "address": "654 Maple St",
+        "phone_number": "555-7890",
+        "email": "store5@example.com",
+        "created_at": "2023-10-10T08:08:01.346Z",
+        "updated_at": "2023-10-09T16:05:47.680Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "d7a95fcf-c253-4351-95a8-f80a24d99329",
+        "name": "Hammer",
+        "description": "A versatile tool for pounding nails",
+        "price_per_day": 67052,
+        "available": false,
+        "created_at": "2023-10-10T06:00:43.110Z",
+        "updated_at": "2023-10-10T07:35:13.833Z",
+        "store_id": "2e909141-1b2d-42fe-807b-88000ce0f8e7"
+      },
+      {
+        "id": "ee4eb9de-b956-452a-9526-bcee23071391",
+        "name": "Screwdriver",
+        "description": "Perfect for tightening screws",
+        "price_per_day": 99192,
+        "available": false,
+        "created_at": "2023-10-10T05:32:31.725Z",
+        "updated_at": "2023-10-10T03:46:14.021Z",
+        "store_id": "ffc5a964-cf84-45b8-a652-4259a3d54613"
+      },
+      {
+        "id": "12f1942e-cb4f-4d3f-aba0-57935ababfe4",
+        "name": "Wrench",
+        "description": "Great for turning nuts and bolts",
+        "price_per_day": 60983,
+        "available": false,
+        "created_at": "2023-10-10T11:58:28.021Z",
+        "updated_at": "2023-10-10T02:33:17.546Z",
+        "store_id": "9146be76-1b81-41bd-8e52-8f92c76abf19"
+      },
+      {
+        "id": "47be0bb8-8dbf-458a-b299-8ea5bf4cc65e",
+        "name": "Drill",
+        "description": "Ideal for drilling holes",
+        "price_per_day": 59297,
+        "available": false,
+        "created_at": "2023-10-09T12:14:56.561Z",
+        "updated_at": "2023-10-10T04:58:00.608Z",
+        "store_id": "9146be76-1b81-41bd-8e52-8f92c76abf19"
+      },
+      {
+        "id": "5738b873-cdbf-427d-b679-600b8b516955",
+        "name": "Pliers",
+        "description": "Useful for gripping objects",
+        "price_per_day": 92114,
+        "available": false,
+        "created_at": "2023-10-09T21:54:56.842Z",
+        "updated_at": "2023-10-09T13:55:57.572Z",
+        "store_id": "ffc5a964-cf84-45b8-a652-4259a3d54613"
+      }
+    ],
+    "rental": [
+      {
+        "id": "dfd16781-b593-4d46-b4b0-ba8c455cc872",
+        "rental_start_date": "2023-10-09T18:39:16.444Z",
+        "rental_end_date": "2023-10-10T08:11:11.290Z",
+        "total_price": 6705,
+        "created_at": "2023-10-09T17:41:03.693Z",
+        "updated_at": "2023-10-10T06:50:53.968Z",
+        "tool_id": "47be0bb8-8dbf-458a-b299-8ea5bf4cc65e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f51e6c1f-d342-4188-ae10-c6be6f1ca69e",
+        "rental_start_date": "2023-10-09T14:24:53.356Z",
+        "rental_end_date": "2023-10-10T05:28:02.354Z",
+        "total_price": 11899,
+        "created_at": "2023-10-10T07:19:25.836Z",
+        "updated_at": "2023-10-10T06:41:23.606Z",
+        "tool_id": "47be0bb8-8dbf-458a-b299-8ea5bf4cc65e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12cf252e-8205-4bc6-8286-3eb563792767",
+        "rental_start_date": "2023-10-10T08:34:37.280Z",
+        "rental_end_date": "2023-10-09T18:41:54.205Z",
+        "total_price": 24611,
+        "created_at": "2023-10-10T02:00:06.592Z",
+        "updated_at": "2023-10-10T01:01:59.911Z",
+        "tool_id": "47be0bb8-8dbf-458a-b299-8ea5bf4cc65e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "195e3e9a-4ebf-4a70-b63e-4f568b02c5c2",
+        "rental_start_date": "2023-10-10T10:33:18.603Z",
+        "rental_end_date": "2023-10-10T09:22:08.530Z",
+        "total_price": 31779,
+        "created_at": "2023-10-10T01:34:48.935Z",
+        "updated_at": "2023-10-10T06:00:20.162Z",
+        "tool_id": "47be0bb8-8dbf-458a-b299-8ea5bf4cc65e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0803ece-53b7-4aab-9951-055cbd181058",
+        "rental_start_date": "2023-10-10T11:37:54.558Z",
+        "rental_end_date": "2023-10-10T05:34:27.939Z",
+        "total_price": 45751,
+        "created_at": "2023-10-10T03:42:08.118Z",
+        "updated_at": "2023-10-09T15:54:55.416Z",
+        "tool_id": "47be0bb8-8dbf-458a-b299-8ea5bf4cc65e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "63d5e6a1-dc26-4204-9c01-7586119c4ed8",
+        "amount_due": 75198,
+        "payment_status": "Paid",
+        "due_date": "2023-10-10T09:24:52.401Z",
+        "created_at": "2023-10-10T09:41:02.353Z",
+        "updated_at": "2023-10-10T11:47:54.717Z",
+        "rental_id": "195e3e9a-4ebf-4a70-b63e-4f568b02c5c2"
+      },
+      {
+        "id": "d01df6f2-e909-4c30-a114-423cedd8162b",
+        "amount_due": 25164,
+        "payment_status": "Pending",
+        "due_date": "2023-10-10T10:37:00.003Z",
+        "created_at": "2023-10-10T08:55:51.894Z",
+        "updated_at": "2023-10-10T02:30:13.318Z",
+        "rental_id": "12cf252e-8205-4bc6-8286-3eb563792767"
+      },
+      {
+        "id": "3e98daea-5c0f-42e0-8984-1a7f8edfd4fb",
+        "amount_due": 82197,
+        "payment_status": "Overdue",
+        "due_date": "2023-10-09T14:58:32.146Z",
+        "created_at": "2023-10-09T19:36:51.602Z",
+        "updated_at": "2023-10-09T19:15:17.435Z",
+        "rental_id": "d0803ece-53b7-4aab-9951-055cbd181058"
+      },
+      {
+        "id": "7f790512-e7db-4358-9b14-7a17fae2fb54",
+        "amount_due": 98679,
+        "payment_status": "Cancelled",
+        "due_date": "2023-10-10T06:15:54.243Z",
+        "created_at": "2023-10-10T02:02:45.365Z",
+        "updated_at": "2023-10-10T05:42:23.015Z",
+        "rental_id": "d0803ece-53b7-4aab-9951-055cbd181058"
+      },
+      {
+        "id": "ead018c7-44b3-4379-b6ad-10738cd0c0d2",
+        "amount_due": 15652,
+        "payment_status": "Refunded",
+        "due_date": "2023-10-10T05:29:35.215Z",
+        "created_at": "2023-10-10T00:47:03.415Z",
+        "updated_at": "2023-10-09T12:38:42.267Z",
+        "rental_id": "195e3e9a-4ebf-4a70-b63e-4f568b02c5c2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0a79252b-5040-4a58-9452-2e46dd943340",
+        "email": "Boris.Brown@roq.tech",
+        "firstName": "Jenifer",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45312365",
+        "tenantId": null
+      },
+      {
+        "reference": "38820acd-b781-4076-8f24-e8a06b79b8b0",
+        "email": "Woodrow5@roq.tech",
+        "firstName": "Albertha",
+        "lastName": "Greenfelder-Ziemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/880.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b57a549d-b635-469a-9d8f-7219293f52f2",
+        "email": "Ruby96@roq.tech",
+        "firstName": "Edwina",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52598278",
+        "tenantId": null
+      },
+      {
+        "reference": "cbd9e4ea-3eb1-4d43-b310-24f6b2990bb7",
+        "email": "Jazmyne_Hand6@roq.tech",
+        "firstName": "Verona",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80745114",
+        "tenantId": null
+      },
+      {
+        "reference": "48f77497-98c3-4064-b44a-6e12781424c0",
+        "email": "Clara13@roq.tech",
+        "firstName": "Ora",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/498.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "90777f70-1fbb-446a-b74d-bce1a89ad41b",
+        "name": "ABC Store",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "store1@example.com",
+        "created_at": "2023-10-09T12:31:23.106Z",
+        "updated_at": "2023-10-09T17:28:31.509Z"
+      },
+      {
+        "id": "ac9e07c7-15d7-4166-83c3-03df45a7dd09",
+        "name": "XYZ Store",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "email": "store2@example.com",
+        "created_at": "2023-10-10T06:50:31.389Z",
+        "updated_at": "2023-10-09T15:50:39.376Z"
+      },
+      {
+        "id": "f408adc9-0bd1-4d5d-898f-7ea784a13c08",
+        "name": "123 Store",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "email": "store3@example.com",
+        "created_at": "2023-10-09T23:29:35.851Z",
+        "updated_at": "2023-10-10T06:30:45.658Z"
+      },
+      {
+        "id": "dfb8ee1b-b137-4181-9cda-a5c73b4a4078",
+        "name": "Best Buy",
+        "address": "321 Pine St",
+        "phone_number": "888-999-0000",
+        "email": "store4@example.com",
+        "created_at": "2023-10-10T07:36:21.351Z",
+        "updated_at": "2023-10-09T15:13:38.525Z"
+      },
+      {
+        "id": "8a7a35eb-5d40-4108-ac4a-7644ed35ee1d",
+        "name": "Supermart",
+        "address": "987 Maple St",
+        "phone_number": "111-222-3333",
+        "email": "store5@example.com",
+        "created_at": "2023-10-09T16:58:45.105Z",
+        "updated_at": "2023-10-10T02:45:52.683Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "ef225739-0e65-4430-b597-fad3bcb0dd76",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price_per_day": 39328,
+        "available": true,
+        "created_at": "2023-10-10T02:47:09.168Z",
+        "updated_at": "2023-10-09T17:09:40.230Z",
+        "store_id": "f408adc9-0bd1-4d5d-898f-7ea784a13c08"
+      },
+      {
+        "id": "55afbeaa-13aa-44d8-a42c-2f3ea9fc8bb1",
+        "name": "Screwdriver",
+        "description": "Perfect for tightening screws",
+        "price_per_day": 71384,
+        "available": false,
+        "created_at": "2023-10-10T01:47:39.292Z",
+        "updated_at": "2023-10-10T10:55:35.577Z",
+        "store_id": "f408adc9-0bd1-4d5d-898f-7ea784a13c08"
+      },
+      {
+        "id": "cfbd33bb-ae28-4710-976d-2e4cf5ad28ce",
+        "name": "Wrench",
+        "description": "Ideal for plumbing work",
+        "price_per_day": 45265,
+        "available": true,
+        "created_at": "2023-10-10T10:03:14.365Z",
+        "updated_at": "2023-10-09T22:35:00.978Z",
+        "store_id": "dfb8ee1b-b137-4181-9cda-a5c73b4a4078"
+      },
+      {
+        "id": "5f52fe23-cae0-4ef5-b513-279eea1f9527",
+        "name": "Drill",
+        "description": "Great for drilling holes",
+        "price_per_day": 7521,
+        "available": true,
+        "created_at": "2023-10-09T19:44:41.302Z",
+        "updated_at": "2023-10-10T05:53:42.992Z",
+        "store_id": "f408adc9-0bd1-4d5d-898f-7ea784a13c08"
+      },
+      {
+        "id": "bca56b9e-8e2d-4506-a02a-9b8d2196c355",
+        "name": "Pliers",
+        "description": "Useful for gripping and bending",
+        "price_per_day": 93921,
+        "available": false,
+        "created_at": "2023-10-10T02:03:56.307Z",
+        "updated_at": "2023-10-09T21:50:00.799Z",
+        "store_id": "ac9e07c7-15d7-4166-83c3-03df45a7dd09"
+      }
+    ],
+    "rental": [
+      {
+        "id": "7ffbbd8a-5140-4c4a-a156-1a07b98caa5c",
+        "rental_start_date": "2023-10-10T08:23:13.914Z",
+        "rental_end_date": "2023-10-10T02:22:32.840Z",
+        "total_price": 6496,
+        "created_at": "2023-10-09T12:45:41.165Z",
+        "updated_at": "2023-10-10T08:15:59.982Z",
+        "tool_id": "ef225739-0e65-4430-b597-fad3bcb0dd76",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4ea6907-6728-4141-84a7-b5ba44dca423",
+        "rental_start_date": "2023-10-10T09:29:21.276Z",
+        "rental_end_date": "2023-10-10T04:23:41.152Z",
+        "total_price": 61456,
+        "created_at": "2023-10-10T02:59:24.638Z",
+        "updated_at": "2023-10-10T05:15:59.213Z",
+        "tool_id": "5f52fe23-cae0-4ef5-b513-279eea1f9527",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "931c3925-1712-4569-bce2-6da2f1b9ce78",
+        "rental_start_date": "2023-10-10T02:19:33.807Z",
+        "rental_end_date": "2023-10-09T22:49:06.365Z",
+        "total_price": 46387,
+        "created_at": "2023-10-09T15:01:23.264Z",
+        "updated_at": "2023-10-10T08:55:36.134Z",
+        "tool_id": "cfbd33bb-ae28-4710-976d-2e4cf5ad28ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eeec3a9c-085b-4c8e-b693-b9b3017ac667",
+        "rental_start_date": "2023-10-10T03:06:43.290Z",
+        "rental_end_date": "2023-10-10T02:47:28.657Z",
+        "total_price": 22710,
+        "created_at": "2023-10-09T19:37:17.029Z",
+        "updated_at": "2023-10-09T12:46:38.597Z",
+        "tool_id": "bca56b9e-8e2d-4506-a02a-9b8d2196c355",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0313c843-5a64-4be8-8182-4153890a3aa0",
+        "rental_start_date": "2023-10-09T13:10:12.119Z",
+        "rental_end_date": "2023-10-09T16:22:54.685Z",
+        "total_price": 85334,
+        "created_at": "2023-10-10T08:46:42.065Z",
+        "updated_at": "2023-10-10T10:13:01.399Z",
+        "tool_id": "55afbeaa-13aa-44d8-a42c-2f3ea9fc8bb1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "ecceeab7-9455-42a5-92be-98c3591f91ce",
+        "amount_due": 24296,
+        "payment_status": "Paid",
+        "due_date": "2023-10-09T14:01:08.707Z",
+        "created_at": "2023-10-10T00:35:27.735Z",
+        "updated_at": "2023-10-10T05:45:13.745Z",
+        "rental_id": "eeec3a9c-085b-4c8e-b693-b9b3017ac667"
+      },
+      {
+        "id": "06c1a7ec-2670-4893-b22a-7a1aaa69e3d6",
+        "amount_due": 93907,
+        "payment_status": "Pending",
+        "due_date": "2023-10-10T01:28:54.415Z",
+        "created_at": "2023-10-10T00:24:58.182Z",
+        "updated_at": "2023-10-10T10:23:29.247Z",
+        "rental_id": "7ffbbd8a-5140-4c4a-a156-1a07b98caa5c"
+      },
+      {
+        "id": "51ffae5d-fd83-4d6c-99c1-4aeff7f94a91",
+        "amount_due": 86595,
+        "payment_status": "Overdue",
+        "due_date": "2023-10-09T17:53:01.461Z",
+        "created_at": "2023-10-09T22:49:04.210Z",
+        "updated_at": "2023-10-10T05:27:20.688Z",
+        "rental_id": "eeec3a9c-085b-4c8e-b693-b9b3017ac667"
+      },
+      {
+        "id": "90442fb3-8513-4f62-8ce2-7a297cd68e74",
+        "amount_due": 58384,
+        "payment_status": "Unpaid",
+        "due_date": "2023-10-10T11:24:32.935Z",
+        "created_at": "2023-10-09T16:11:11.566Z",
+        "updated_at": "2023-10-09T23:14:06.245Z",
+        "rental_id": "0313c843-5a64-4be8-8182-4153890a3aa0"
+      },
+      {
+        "id": "1a3bf531-1376-4063-8420-bad13aca3068",
+        "amount_due": 51974,
+        "payment_status": "Cancelled",
+        "due_date": "2023-10-10T02:57:41.538Z",
+        "created_at": "2023-10-10T06:45:52.482Z",
+        "updated_at": "2023-10-10T03:07:17.803Z",
+        "rental_id": "0313c843-5a64-4be8-8182-4153890a3aa0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fa64ac11-f6b7-40f1-9f47-f379d9e795b4",
+        "email": "Genesis_Boehm@roq.tech",
+        "firstName": "Amelia",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89458955",
+        "tenantId": null
+      },
+      {
+        "reference": "8c2cde7a-6238-4b97-843f-893be0ab90a8",
+        "email": "Rusty.Armstrong@roq.tech",
+        "firstName": "Petra",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74746734",
+        "tenantId": null
+      },
+      {
+        "reference": "3e4eef99-5afa-4c81-8614-818b7a16eb99",
+        "email": "Nat_Braun66@roq.tech",
+        "firstName": "Trinity",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/275.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3ef3cd06-9189-487c-9fb3-1625c36e94cd",
+        "email": "Alta3@roq.tech",
+        "firstName": "Mazie",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/168.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "13fa2eeb-1925-43ee-8b5d-84b51566d87a",
+        "email": "Lera_Brakus@roq.tech",
+        "firstName": "Brannon",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11151449",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "98d6d3aa-f7d9-43a1-a709-987e063d8af1",
+        "name": "ABC Store",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "abcstore@example.com",
+        "created_at": "2023-10-10T08:49:53.799Z",
+        "updated_at": "2023-10-10T00:46:10.345Z"
+      },
+      {
+        "id": "5097acee-a1b9-47e5-a92b-42ca9a6ea083",
+        "name": "XYZ Mart",
+        "address": "456 Elm Avenue",
+        "phone_number": "987-654-3210",
+        "email": "xyzmart@example.com",
+        "created_at": "2023-10-10T10:27:32.589Z",
+        "updated_at": "2023-10-09T21:17:49.226Z"
+      },
+      {
+        "id": "3ec47d2b-8aef-4e07-835d-2dd8f3e2f01e",
+        "name": "Sunshine Market",
+        "address": "789 Oak Lane",
+        "phone_number": "555-123-4567",
+        "email": "sunshinemarket@example.com",
+        "created_at": "2023-10-10T02:20:54.605Z",
+        "updated_at": "2023-10-09T17:36:25.161Z"
+      },
+      {
+        "id": "b5a0263c-5b67-476b-8d55-b7219b4ee7f6",
+        "name": "Golden Groceries",
+        "address": "321 Maple Drive",
+        "phone_number": "777-888-9999",
+        "email": "goldengroceries@example.com",
+        "created_at": "2023-10-09T21:50:41.914Z",
+        "updated_at": "2023-10-10T04:45:12.330Z"
+      },
+      {
+        "id": "6b176bc1-83c9-404e-bb10-9426aacaaba9",
+        "name": "Fresh Foods",
+        "address": "654 Pine Road",
+        "phone_number": "444-555-6666",
+        "email": "freshfoods@example.com",
+        "created_at": "2023-10-09T14:21:26.843Z",
+        "updated_at": "2023-10-10T04:06:52.166Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "99585d20-634f-4411-9e13-6e968a9084a3",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price_per_day": 7134,
+        "available": false,
+        "created_at": "2023-10-09T15:55:36.373Z",
+        "updated_at": "2023-10-09T18:21:53.451Z",
+        "store_id": "6b176bc1-83c9-404e-bb10-9426aacaaba9"
+      },
+      {
+        "id": "397b46f7-e88d-427f-b571-c23045408cc2",
+        "name": "Screwdriver",
+        "description": "Perfect for tightening or loosening screws",
+        "price_per_day": 93347,
+        "available": true,
+        "created_at": "2023-10-10T08:15:12.102Z",
+        "updated_at": "2023-10-10T11:21:36.181Z",
+        "store_id": "b5a0263c-5b67-476b-8d55-b7219b4ee7f6"
+      },
+      {
+        "id": "3ed7a6ca-f1b4-4b96-a794-e7e94168c281",
+        "name": "Wrench",
+        "description": "Ideal for gripping and turning objects",
+        "price_per_day": 50494,
+        "available": false,
+        "created_at": "2023-10-10T12:12:08.779Z",
+        "updated_at": "2023-10-10T07:45:57.301Z",
+        "store_id": "6b176bc1-83c9-404e-bb10-9426aacaaba9"
+      },
+      {
+        "id": "a35add48-08ec-488f-9335-79904a53460d",
+        "name": "Pliers",
+        "description": "Great for cutting or drilling holes",
+        "price_per_day": 30934,
+        "available": false,
+        "created_at": "2023-10-10T07:37:50.331Z",
+        "updated_at": "2023-10-10T00:42:39.779Z",
+        "store_id": "b5a0263c-5b67-476b-8d55-b7219b4ee7f6"
+      },
+      {
+        "id": "4a66ecd9-e9e2-4341-b918-cbae249d1618",
+        "name": "Drill",
+        "description": "Useful for holding objects securely",
+        "price_per_day": 34224,
+        "available": false,
+        "created_at": "2023-10-09T13:44:02.162Z",
+        "updated_at": "2023-10-10T02:25:00.282Z",
+        "store_id": "98d6d3aa-f7d9-43a1-a709-987e063d8af1"
+      }
+    ],
+    "rental": [
+      {
+        "id": "d5a05f31-d5bd-4f17-bf4c-00ad8e160b89",
+        "rental_start_date": "2023-10-09T22:57:44.792Z",
+        "rental_end_date": "2023-10-10T06:09:33.544Z",
+        "total_price": 66021,
+        "created_at": "2023-10-10T08:15:46.033Z",
+        "updated_at": "2023-10-09T18:33:39.347Z",
+        "tool_id": "4a66ecd9-e9e2-4341-b918-cbae249d1618",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12103af6-f020-4b81-b81c-24e69960e243",
+        "rental_start_date": "2023-10-10T04:12:58.542Z",
+        "rental_end_date": "2023-10-09T15:57:41.524Z",
+        "total_price": 29735,
+        "created_at": "2023-10-09T14:57:30.102Z",
+        "updated_at": "2023-10-09T17:02:05.140Z",
+        "tool_id": "a35add48-08ec-488f-9335-79904a53460d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d051fde9-4901-4e49-ba78-829357ad7df8",
+        "rental_start_date": "2023-10-09T17:01:27.866Z",
+        "rental_end_date": "2023-10-10T05:54:37.461Z",
+        "total_price": 1464,
+        "created_at": "2023-10-09T18:36:24.169Z",
+        "updated_at": "2023-10-09T12:52:50.649Z",
+        "tool_id": "4a66ecd9-e9e2-4341-b918-cbae249d1618",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e36ca30-2b7d-4547-88fb-101333d6a93f",
+        "rental_start_date": "2023-10-09T21:26:20.610Z",
+        "rental_end_date": "2023-10-09T16:58:11.098Z",
+        "total_price": 51908,
+        "created_at": "2023-10-10T07:55:43.812Z",
+        "updated_at": "2023-10-10T10:50:08.163Z",
+        "tool_id": "4a66ecd9-e9e2-4341-b918-cbae249d1618",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2627d629-23ec-4264-89b5-33d6113f0bfa",
+        "rental_start_date": "2023-10-10T08:08:43.732Z",
+        "rental_end_date": "2023-10-10T05:44:31.981Z",
+        "total_price": 28804,
+        "created_at": "2023-10-10T06:58:24.125Z",
+        "updated_at": "2023-10-10T06:15:35.768Z",
+        "tool_id": "397b46f7-e88d-427f-b571-c23045408cc2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "b7e93ddc-474f-4977-9004-867214668b9d",
+        "amount_due": 94495,
+        "payment_status": "Paid",
+        "due_date": "2023-10-10T07:20:35.281Z",
+        "created_at": "2023-10-10T01:31:42.038Z",
+        "updated_at": "2023-10-10T00:25:28.299Z",
+        "rental_id": "12103af6-f020-4b81-b81c-24e69960e243"
+      },
+      {
+        "id": "4625d6be-9445-4f74-bd3d-4968c4192a57",
+        "amount_due": 31851,
+        "payment_status": "Pending",
+        "due_date": "2023-10-10T06:57:19.519Z",
+        "created_at": "2023-10-10T03:31:24.916Z",
+        "updated_at": "2023-10-09T23:45:22.028Z",
+        "rental_id": "d051fde9-4901-4e49-ba78-829357ad7df8"
+      },
+      {
+        "id": "5ca56882-aa75-430e-898a-abb5bf02afdb",
+        "amount_due": 39657,
+        "payment_status": "Overdue",
+        "due_date": "2023-10-10T03:53:29.677Z",
+        "created_at": "2023-10-09T21:52:31.558Z",
+        "updated_at": "2023-10-10T00:04:07.444Z",
+        "rental_id": "2627d629-23ec-4264-89b5-33d6113f0bfa"
+      },
+      {
+        "id": "fccfb3a0-d409-47dc-a658-09811a9e6136",
+        "amount_due": 51262,
+        "payment_status": "Cancelled",
+        "due_date": "2023-10-09T18:55:18.841Z",
+        "created_at": "2023-10-09T23:59:15.636Z",
+        "updated_at": "2023-10-10T02:23:43.954Z",
+        "rental_id": "2627d629-23ec-4264-89b5-33d6113f0bfa"
+      },
+      {
+        "id": "8bcfe95e-0127-407d-bf7b-c62ae9a9bc5c",
+        "amount_due": 9007,
+        "payment_status": "Refunded",
+        "due_date": "2023-10-10T05:12:52.223Z",
+        "created_at": "2023-10-09T23:21:13.738Z",
+        "updated_at": "2023-10-10T08:09:16.645Z",
+        "rental_id": "2627d629-23ec-4264-89b5-33d6113f0bfa"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9d04b585-3393-4284-971a-ea5afe1c4c28",
+        "email": "Mitchel11@roq.tech",
+        "firstName": "Abigale",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12071612",
+        "tenantId": null
+      },
+      {
+        "reference": "65cc93a9-e19d-4a24-ade6-ff7aa576abdc",
+        "email": "Allie_Kuvalis47@roq.tech",
+        "firstName": "Savion",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/350.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "75d051b7-89a0-4b56-bca5-dcd20288ba4e",
+        "email": "Kristian81@roq.tech",
+        "firstName": "Ellen",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25524896",
+        "tenantId": null
+      },
+      {
+        "reference": "142ff3f8-e511-4b0e-8f7d-f6320ff97e4d",
+        "email": "Betsy.Powlowski47@roq.tech",
+        "firstName": "Billie",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11787431",
+        "tenantId": null
+      },
+      {
+        "reference": "6f5f4ae5-52e9-429c-8c9f-c3e8f95461f5",
+        "email": "Emiliano_Skiles@roq.tech",
+        "firstName": "Vincenzo",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/938.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "22d6ad95-4bbd-4378-a643-ff55c119da55",
+        "name": "ABC Store",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "store1@example.com",
+        "created_at": "2023-10-09T12:51:51.652Z",
+        "updated_at": "2023-10-10T10:05:12.600Z"
+      },
+      {
+        "id": "0c32ef6f-7217-43ec-a4e3-2821b6d2ca35",
+        "name": "XYZ Store",
+        "address": "456 Elm St",
+        "phone_number": "555-123-4567",
+        "email": "store2@example.com",
+        "created_at": "2023-10-09T12:25:31.832Z",
+        "updated_at": "2023-10-10T01:56:02.660Z"
+      },
+      {
+        "id": "c7c6459a-0fd8-405f-b644-258fef776579",
+        "name": "123 Store",
+        "address": "789 Oak St",
+        "phone_number": "987-654-3210",
+        "email": "store3@example.com",
+        "created_at": "2023-10-10T08:37:07.924Z",
+        "updated_at": "2023-10-10T07:29:24.819Z"
+      },
+      {
+        "id": "47762b2a-8852-43bf-8675-65f89e5c85ef",
+        "name": "Best Buy",
+        "address": "10 Pine St",
+        "phone_number": "888-555-1234",
+        "email": "store4@example.com",
+        "created_at": "2023-10-09T13:29:16.530Z",
+        "updated_at": "2023-10-09T12:28:49.301Z"
+      },
+      {
+        "id": "f550c789-58d8-40d7-a095-e8e2fba44ec2",
+        "name": "Supermart",
+        "address": "55 Maple St",
+        "phone_number": "777-999-8888",
+        "email": "store5@example.com",
+        "created_at": "2023-10-10T03:55:22.732Z",
+        "updated_at": "2023-10-09T13:14:35.624Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "e1b2449a-d388-445b-ab35-c1c8aa0e762c",
+        "name": "Hammer",
+        "description": "A versatile tool for pounding nails",
+        "price_per_day": 46451,
+        "available": false,
+        "created_at": "2023-10-10T11:07:35.025Z",
+        "updated_at": "2023-10-09T22:24:33.757Z",
+        "store_id": "0c32ef6f-7217-43ec-a4e3-2821b6d2ca35"
+      },
+      {
+        "id": "20110932-8562-403f-9311-3d957e5aebae",
+        "name": "Screwdriver",
+        "description": "Perfect for tightening or loosening screws",
+        "price_per_day": 94984,
+        "available": true,
+        "created_at": "2023-10-10T03:27:15.413Z",
+        "updated_at": "2023-10-09T15:53:42.076Z",
+        "store_id": "47762b2a-8852-43bf-8675-65f89e5c85ef"
+      },
+      {
+        "id": "0fa17812-8f44-4816-9d6e-2f004e2bbbe1",
+        "name": "Wrench",
+        "description": "Ideal for turning nuts and bolts",
+        "price_per_day": 1642,
+        "available": true,
+        "created_at": "2023-10-10T01:51:34.016Z",
+        "updated_at": "2023-10-09T18:36:20.659Z",
+        "store_id": "c7c6459a-0fd8-405f-b644-258fef776579"
+      },
+      {
+        "id": "bc23b6c2-e6e2-4e20-86b7-011401cc48cc",
+        "name": "Drill",
+        "description": "Great for drilling holes in various materials",
+        "price_per_day": 80409,
+        "available": false,
+        "created_at": "2023-10-10T03:57:48.606Z",
+        "updated_at": "2023-10-10T04:40:59.141Z",
+        "store_id": "c7c6459a-0fd8-405f-b644-258fef776579"
+      },
+      {
+        "id": "b07e08c3-a3de-457d-9e9b-9402965d8507",
+        "name": "Pliers",
+        "description": "Useful for gripping and bending wires",
+        "price_per_day": 65577,
+        "available": true,
+        "created_at": "2023-10-10T10:57:36.954Z",
+        "updated_at": "2023-10-10T05:19:06.503Z",
+        "store_id": "22d6ad95-4bbd-4378-a643-ff55c119da55"
+      }
+    ],
+    "rental": [
+      {
+        "id": "9256b696-e4ae-4e29-9ae1-a9f0956ae08b",
+        "rental_start_date": "2023-10-10T07:35:55.744Z",
+        "rental_end_date": "2023-10-09T16:36:37.656Z",
+        "total_price": 18981,
+        "created_at": "2023-10-10T08:28:36.184Z",
+        "updated_at": "2023-10-10T09:05:28.307Z",
+        "tool_id": "0fa17812-8f44-4816-9d6e-2f004e2bbbe1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8565c820-f365-4891-8d7b-33e884027d28",
+        "rental_start_date": "2023-10-09T13:15:43.556Z",
+        "rental_end_date": "2023-10-09T16:03:35.118Z",
+        "total_price": 16931,
+        "created_at": "2023-10-10T07:27:08.518Z",
+        "updated_at": "2023-10-09T20:24:23.262Z",
+        "tool_id": "b07e08c3-a3de-457d-9e9b-9402965d8507",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7ed6994-d613-4646-9754-02dc30fb402e",
+        "rental_start_date": "2023-10-09T17:14:33.288Z",
+        "rental_end_date": "2023-10-09T12:58:16.269Z",
+        "total_price": 52189,
+        "created_at": "2023-10-09T22:54:33.714Z",
+        "updated_at": "2023-10-10T10:15:32.548Z",
+        "tool_id": "bc23b6c2-e6e2-4e20-86b7-011401cc48cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1f20e75-aabb-4a29-9e52-a529214a2bb7",
+        "rental_start_date": "2023-10-09T23:23:38.577Z",
+        "rental_end_date": "2023-10-10T00:10:49.938Z",
+        "total_price": 79619,
+        "created_at": "2023-10-10T01:00:26.987Z",
+        "updated_at": "2023-10-10T02:10:06.266Z",
+        "tool_id": "20110932-8562-403f-9311-3d957e5aebae",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "995340f5-db01-461e-873a-af8202098dd8",
+        "rental_start_date": "2023-10-09T12:51:21.388Z",
+        "rental_end_date": "2023-10-09T15:43:50.652Z",
+        "total_price": 12393,
+        "created_at": "2023-10-09T16:31:07.877Z",
+        "updated_at": "2023-10-10T11:27:02.365Z",
+        "tool_id": "20110932-8562-403f-9311-3d957e5aebae",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "27468ff8-cbd5-4472-a7a2-2cb571efb61e",
+        "amount_due": 26330,
+        "payment_status": "Paid",
+        "due_date": "2023-10-09T21:05:32.656Z",
+        "created_at": "2023-10-09T19:54:39.282Z",
+        "updated_at": "2023-10-09T22:15:35.065Z",
+        "rental_id": "9256b696-e4ae-4e29-9ae1-a9f0956ae08b"
+      },
+      {
+        "id": "e540fbe8-76df-4e54-9e39-4f8340d5b2e0",
+        "amount_due": 67633,
+        "payment_status": "Pending",
+        "due_date": "2023-10-09T20:58:15.544Z",
+        "created_at": "2023-10-09T16:47:37.969Z",
+        "updated_at": "2023-10-09T23:45:18.420Z",
+        "rental_id": "8565c820-f365-4891-8d7b-33e884027d28"
+      },
+      {
+        "id": "3d0bd758-a215-46ae-8517-cbeb3aef6c26",
+        "amount_due": 3039,
+        "payment_status": "Overdue",
+        "due_date": "2023-10-10T06:21:57.509Z",
+        "created_at": "2023-10-09T18:21:02.735Z",
+        "updated_at": "2023-10-09T13:32:55.363Z",
+        "rental_id": "9256b696-e4ae-4e29-9ae1-a9f0956ae08b"
+      },
+      {
+        "id": "087c434d-ea47-4171-93ea-046441597302",
+        "amount_due": 5869,
+        "payment_status": "Cancelled",
+        "due_date": "2023-10-10T02:18:39.828Z",
+        "created_at": "2023-10-09T19:36:53.695Z",
+        "updated_at": "2023-10-09T16:29:04.596Z",
+        "rental_id": "b7ed6994-d613-4646-9754-02dc30fb402e"
+      },
+      {
+        "id": "dfab7f12-8bfe-46a4-8dba-86f582dc0265",
+        "amount_due": 73007,
+        "payment_status": "Refunded",
+        "due_date": "2023-10-09T14:11:34.960Z",
+        "created_at": "2023-10-09T19:57:06.989Z",
+        "updated_at": "2023-10-10T05:41:18.267Z",
+        "rental_id": "8565c820-f365-4891-8d7b-33e884027d28"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "051f11de-466f-46e9-b343-48f751e8eefb",
+        "email": "Solon_Considine@roq.tech",
+        "firstName": "Malika",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/580.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b67ac9d3-c83f-48f6-a5f1-9c862d358ec7",
+        "email": "Cielo89@roq.tech",
+        "firstName": "Lyric",
+        "lastName": "Morar-Upton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49778043",
+        "tenantId": null
+      },
+      {
+        "reference": "5b9b0606-ee51-4f81-8d04-20aad7a2c897",
+        "email": "Felicita.Wisoky-Rowe5@roq.tech",
+        "firstName": "Curt",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58698417",
+        "tenantId": null
+      },
+      {
+        "reference": "728fac0b-6156-4fef-9faf-fcda24f8205c",
+        "email": "Merritt24@roq.tech",
+        "firstName": "Flavie",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81484302",
+        "tenantId": null
+      },
+      {
+        "reference": "0c3bc268-ad4c-4ba1-84f8-b9abf79ca38b",
+        "email": "Gustave_Grady@roq.tech",
+        "firstName": "Meggie",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8778902",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "5412174e-6f62-4a73-86b8-4e37d0c7b056",
+        "name": "ABC Store",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "abcstore@example.com",
+        "created_at": "2023-10-10T07:13:11.989Z",
+        "updated_at": "2023-10-10T11:50:18.657Z"
+      },
+      {
+        "id": "335fbcf6-798f-4b2f-a0a2-fa793a477739",
+        "name": "XYZ Shop",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "email": "xyzshop@example.com",
+        "created_at": "2023-10-10T04:18:46.787Z",
+        "updated_at": "2023-10-10T11:17:26.562Z"
+      },
+      {
+        "id": "1cd3e54b-64e4-4800-91ba-2bdf890b5796",
+        "name": "Supermart",
+        "address": "789 Oak St",
+        "phone_number": "456-789-1230",
+        "email": "supermart@example.com",
+        "created_at": "2023-10-10T05:28:37.233Z",
+        "updated_at": "2023-10-10T05:12:10.167Z"
+      },
+      {
+        "id": "8c628c9c-59c3-47e4-b173-ef0d977d0e2f",
+        "name": "MegaMart",
+        "address": "321 Pine St",
+        "phone_number": "789-123-4560",
+        "email": "megamart@example.com",
+        "created_at": "2023-10-09T15:58:49.068Z",
+        "updated_at": "2023-10-10T02:25:00.084Z"
+      },
+      {
+        "id": "76293622-3272-47e8-9488-0a06104eb428",
+        "name": "QuickMart",
+        "address": "654 Maple St",
+        "phone_number": "321-654-9870",
+        "email": "quickmart@example.com",
+        "created_at": "2023-10-10T12:12:44.410Z",
+        "updated_at": "2023-10-10T02:54:54.244Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "b352014f-f231-4064-a448-2c41943c8af3",
+        "name": "Hammer",
+        "description": "A versatile tool for various tasks",
+        "price_per_day": 86135,
+        "available": true,
+        "created_at": "2023-10-09T18:43:43.692Z",
+        "updated_at": "2023-10-09T21:50:25.481Z",
+        "store_id": "1cd3e54b-64e4-4800-91ba-2bdf890b5796"
+      },
+      {
+        "id": "de9feea6-8fb3-45af-a96b-7cda99084966",
+        "name": "Screwdriver",
+        "description": "Ideal for tightening or loosening screws",
+        "price_per_day": 68895,
+        "available": false,
+        "created_at": "2023-10-10T00:35:14.415Z",
+        "updated_at": "2023-10-09T14:15:01.260Z",
+        "store_id": "335fbcf6-798f-4b2f-a0a2-fa793a477739"
+      },
+      {
+        "id": "df53bbf3-ca7c-413b-8886-1ea9913042bd",
+        "name": "Wrench",
+        "description": "Used for turning nuts and bolts",
+        "price_per_day": 9538,
+        "available": false,
+        "created_at": "2023-10-10T09:29:07.053Z",
+        "updated_at": "2023-10-09T17:25:09.590Z",
+        "store_id": "335fbcf6-798f-4b2f-a0a2-fa793a477739"
+      },
+      {
+        "id": "519c0732-92a0-4928-898b-456de8bd6f23",
+        "name": "Drill",
+        "description": "Perfect for drilling holes",
+        "price_per_day": 955,
+        "available": true,
+        "created_at": "2023-10-10T09:53:32.020Z",
+        "updated_at": "2023-10-10T02:10:05.253Z",
+        "store_id": "76293622-3272-47e8-9488-0a06104eb428"
+      },
+      {
+        "id": "f80f9dd9-d3b1-413a-9dea-28c2e433aceb",
+        "name": "Pliers",
+        "description": "Great for gripping and bending wires",
+        "price_per_day": 51829,
+        "available": true,
+        "created_at": "2023-10-10T11:26:58.126Z",
+        "updated_at": "2023-10-09T20:03:41.390Z",
+        "store_id": "335fbcf6-798f-4b2f-a0a2-fa793a477739"
+      }
+    ],
+    "rental": [
+      {
+        "id": "d536ec38-e717-4d05-ba88-1aadbc4e24c1",
+        "rental_start_date": "2023-10-09T20:44:35.021Z",
+        "rental_end_date": "2023-10-10T00:39:25.184Z",
+        "total_price": 48274,
+        "created_at": "2023-10-09T19:23:58.555Z",
+        "updated_at": "2023-10-09T23:49:39.294Z",
+        "tool_id": "df53bbf3-ca7c-413b-8886-1ea9913042bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43eebe3b-4a2b-4fc0-89eb-84a22525466f",
+        "rental_start_date": "2023-10-10T02:44:30.831Z",
+        "rental_end_date": "2023-10-09T13:28:11.890Z",
+        "total_price": 50144,
+        "created_at": "2023-10-09T21:26:10.310Z",
+        "updated_at": "2023-10-09T16:55:10.767Z",
+        "tool_id": "f80f9dd9-d3b1-413a-9dea-28c2e433aceb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fede2ea7-6aa7-4fd6-af2d-1985ac3aa3ba",
+        "rental_start_date": "2023-10-09T21:11:26.513Z",
+        "rental_end_date": "2023-10-10T11:20:13.292Z",
+        "total_price": 9993,
+        "created_at": "2023-10-10T02:22:16.747Z",
+        "updated_at": "2023-10-10T11:45:10.684Z",
+        "tool_id": "b352014f-f231-4064-a448-2c41943c8af3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c149dd6-a12a-4cc2-9535-71f8c7b16ec0",
+        "rental_start_date": "2023-10-10T03:22:24.299Z",
+        "rental_end_date": "2023-10-09T12:33:16.781Z",
+        "total_price": 24718,
+        "created_at": "2023-10-09T13:45:24.334Z",
+        "updated_at": "2023-10-09T18:50:54.021Z",
+        "tool_id": "b352014f-f231-4064-a448-2c41943c8af3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c42d26e9-dbbb-4624-b434-d29fe443116d",
+        "rental_start_date": "2023-10-10T03:19:40.322Z",
+        "rental_end_date": "2023-10-09T23:40:48.710Z",
+        "total_price": 66495,
+        "created_at": "2023-10-09T20:24:51.085Z",
+        "updated_at": "2023-10-10T02:42:08.505Z",
+        "tool_id": "de9feea6-8fb3-45af-a96b-7cda99084966",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "6485cfed-d050-4dcd-a25e-f37602d65605",
+        "amount_due": 31920,
+        "payment_status": "Paid",
+        "due_date": "2023-10-09T23:16:57.375Z",
+        "created_at": "2023-10-10T02:33:37.737Z",
+        "updated_at": "2023-10-10T02:43:31.653Z",
+        "rental_id": "d536ec38-e717-4d05-ba88-1aadbc4e24c1"
+      },
+      {
+        "id": "9ad66a4a-e722-4292-8477-1ffff262bbcb",
+        "amount_due": 97135,
+        "payment_status": "Unpaid",
+        "due_date": "2023-10-10T11:31:01.022Z",
+        "created_at": "2023-10-10T03:33:37.535Z",
+        "updated_at": "2023-10-09T22:57:37.962Z",
+        "rental_id": "8c149dd6-a12a-4cc2-9535-71f8c7b16ec0"
+      },
+      {
+        "id": "ee1969a2-7454-4636-8d57-7fd9d3485d7b",
+        "amount_due": 55951,
+        "payment_status": "Pending",
+        "due_date": "2023-10-10T10:12:00.322Z",
+        "created_at": "2023-10-10T01:01:10.074Z",
+        "updated_at": "2023-10-10T11:52:36.129Z",
+        "rental_id": "fede2ea7-6aa7-4fd6-af2d-1985ac3aa3ba"
+      },
+      {
+        "id": "4e113351-42fc-4b0c-bd35-857296751278",
+        "amount_due": 38319,
+        "payment_status": "Overdue",
+        "due_date": "2023-10-10T10:51:38.738Z",
+        "created_at": "2023-10-09T19:12:48.567Z",
+        "updated_at": "2023-10-09T14:26:53.354Z",
+        "rental_id": "8c149dd6-a12a-4cc2-9535-71f8c7b16ec0"
+      },
+      {
+        "id": "89bb730b-c1dd-4d89-a165-61b29bd185c7",
+        "amount_due": 45058,
+        "payment_status": "Cancelled",
+        "due_date": "2023-10-09T21:07:53.464Z",
+        "created_at": "2023-10-09T15:25:01.358Z",
+        "updated_at": "2023-10-10T02:04:24.039Z",
+        "rental_id": "d536ec38-e717-4d05-ba88-1aadbc4e24c1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0b903a5e-e1ef-4eff-81d3-6e9ef1de89bf",
+        "email": "Scot81@roq.tech",
+        "firstName": "Josephine",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/617.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5c1ed300-9ca9-47d7-8b63-20d5db1500fd",
+        "email": "Magdalen48@roq.tech",
+        "firstName": "Palma",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/772.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c764c89e-01e0-4be0-9c6a-c88f7c8807e2",
+        "email": "Brannon.Pfeffer@roq.tech",
+        "firstName": "Daisha",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/212.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a27c41b5-9b79-420d-84f1-37d33b355381",
+        "email": "Wade_Stoltenberg4@roq.tech",
+        "firstName": "Dejon",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/792.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "996c355f-f0c9-426c-b823-f966e51a1079",
+        "email": "Jairo77@roq.tech",
+        "firstName": "Polly",
+        "lastName": "Waters-Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67235813",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "store": [
+      {
+        "id": "f7e2a251-64ec-41b9-a0be-465a3a503ce0",
+        "name": "ABC Store",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "store1@example.com",
+        "created_at": "2023-10-10T05:12:09.447Z",
+        "updated_at": "2023-10-09T17:08:21.127Z"
+      },
+      {
+        "id": "1b76f793-9e18-46ab-9ce6-5ab9bff3eef1",
+        "name": "XYZ Shop",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "email": "store2@example.com",
+        "created_at": "2023-10-09T23:06:54.731Z",
+        "updated_at": "2023-10-10T10:10:06.525Z"
+      },
+      {
+        "id": "90d83426-791d-4090-9220-42afca537ccf",
+        "name": "123 Mart",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "email": "store3@example.com",
+        "created_at": "2023-10-09T20:33:28.618Z",
+        "updated_at": "2023-10-10T01:51:30.975Z"
+      },
+      {
+        "id": "3e32f216-a59a-411c-800e-12bf51af7130",
+        "name": "Best Buy",
+        "address": "10 Maple Ave",
+        "phone_number": "888-999-0000",
+        "email": "store4@example.com",
+        "created_at": "2023-10-09T18:13:37.700Z",
+        "updated_at": "2023-10-10T10:55:44.723Z"
+      },
+      {
+        "id": "69f64317-3738-449f-b846-be547e9bc13e",
+        "name": "Supermarket",
+        "address": "11 Pine Rd",
+        "phone_number": "111-222-3333",
+        "email": "store5@example.com",
+        "created_at": "2023-10-10T11:43:58.146Z",
+        "updated_at": "2023-10-10T08:12:02.363Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "525b87c8-395b-4377-bbf1-cff950438ce1",
+        "name": "Hammer",
+        "description": "A versatile tool for pounding nails",
+        "price_per_day": 47382,
+        "available": true,
+        "created_at": "2023-10-09T16:59:01.139Z",
+        "updated_at": "2023-10-09T15:47:08.449Z",
+        "store_id": "f7e2a251-64ec-41b9-a0be-465a3a503ce0"
+      },
+      {
+        "id": "e9a4f8d5-c2ba-4b1f-aad7-7ebe78618a81",
+        "name": "Screwdriver",
+        "description": "Used for tightening or loosening screws",
+        "price_per_day": 85766,
+        "available": false,
+        "created_at": "2023-10-10T00:09:11.244Z",
+        "updated_at": "2023-10-10T05:17:12.646Z",
+        "store_id": "69f64317-3738-449f-b846-be547e9bc13e"
+      },
+      {
+        "id": "ead8fccd-2dad-4006-adff-3dfc3b347158",
+        "name": "Wrench",
+        "description": "Great for turning nuts and bolts",
+        "price_per_day": 70989,
+        "available": false,
+        "created_at": "2023-10-09T16:05:51.330Z",
+        "updated_at": "2023-10-10T10:58:59.705Z",
+        "store_id": "1b76f793-9e18-46ab-9ce6-5ab9bff3eef1"
+      },
+      {
+        "id": "3751f7f1-b189-4945-81f8-94c2bea02175",
+        "name": "Drill",
+        "description": "Ideal for drilling holes in various materials",
+        "price_per_day": 64254,
+        "available": true,
+        "created_at": "2023-10-10T12:01:51.764Z",
+        "updated_at": "2023-10-10T00:57:23.974Z",
+        "store_id": "3e32f216-a59a-411c-800e-12bf51af7130"
+      },
+      {
+        "id": "d16e5b6d-37ba-4fdf-8fa3-fa5fde55957a",
+        "name": "Pliers",
+        "description": "Used for gripping and holding objects",
+        "price_per_day": 5306,
+        "available": true,
+        "created_at": "2023-10-09T16:44:02.847Z",
+        "updated_at": "2023-10-10T09:54:39.435Z",
+        "store_id": "f7e2a251-64ec-41b9-a0be-465a3a503ce0"
+      }
+    ],
+    "rental": [
+      {
+        "id": "14a13f53-d334-44bd-b9ef-04fbc136bd89",
+        "rental_start_date": "2023-10-09T19:37:42.103Z",
+        "rental_end_date": "2023-10-10T02:52:49.546Z",
+        "total_price": 4273,
+        "created_at": "2023-10-09T18:22:35.053Z",
+        "updated_at": "2023-10-09T17:00:50.365Z",
+        "tool_id": "525b87c8-395b-4377-bbf1-cff950438ce1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b109231-d406-4b92-a961-0fb546312156",
+        "rental_start_date": "2023-10-09T20:13:18.782Z",
+        "rental_end_date": "2023-10-09T21:09:28.317Z",
+        "total_price": 49130,
+        "created_at": "2023-10-09T21:41:02.470Z",
+        "updated_at": "2023-10-10T11:10:26.849Z",
+        "tool_id": "ead8fccd-2dad-4006-adff-3dfc3b347158",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc77b773-0fc0-447a-bafb-248d7e823212",
+        "rental_start_date": "2023-10-09T17:54:36.063Z",
+        "rental_end_date": "2023-10-09T15:15:57.117Z",
+        "total_price": 34636,
+        "created_at": "2023-10-10T03:43:23.675Z",
+        "updated_at": "2023-10-09T19:58:17.378Z",
+        "tool_id": "3751f7f1-b189-4945-81f8-94c2bea02175",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58319d82-7ca6-4f4d-82e3-2e6d532f7a3c",
+        "rental_start_date": "2023-10-09T20:20:04.445Z",
+        "rental_end_date": "2023-10-09T13:03:59.381Z",
+        "total_price": 99365,
+        "created_at": "2023-10-10T04:38:50.269Z",
+        "updated_at": "2023-10-09T23:40:15.706Z",
+        "tool_id": "d16e5b6d-37ba-4fdf-8fa3-fa5fde55957a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9cc731d0-0dda-4dc0-9bfe-51f72b1248a5",
+        "rental_start_date": "2023-10-09T22:33:13.474Z",
+        "rental_end_date": "2023-10-10T01:42:19.350Z",
+        "total_price": 32373,
+        "created_at": "2023-10-09T19:59:15.090Z",
+        "updated_at": "2023-10-10T00:23:19.011Z",
+        "tool_id": "e9a4f8d5-c2ba-4b1f-aad7-7ebe78618a81",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "c7cccc0e-b94e-4621-81df-1d71bc182645",
+        "amount_due": 36260,
+        "payment_status": "Paid",
+        "due_date": "2023-10-10T07:55:03.633Z",
+        "created_at": "2023-10-10T03:23:52.551Z",
+        "updated_at": "2023-10-10T01:27:24.507Z",
+        "rental_id": "14a13f53-d334-44bd-b9ef-04fbc136bd89"
+      },
+      {
+        "id": "e5bbdc64-a7b9-44b9-89c7-325476e9c1c4",
+        "amount_due": 52832,
+        "payment_status": "Unpaid",
+        "due_date": "2023-10-09T13:57:17.122Z",
+        "created_at": "2023-10-09T14:19:34.473Z",
+        "updated_at": "2023-10-10T03:35:51.609Z",
+        "rental_id": "8b109231-d406-4b92-a961-0fb546312156"
+      },
+      {
+        "id": "9d9364b5-3f3d-4b35-a2c2-d619d038a76f",
+        "amount_due": 13452,
+        "payment_status": "Pending",
+        "due_date": "2023-10-10T01:07:17.765Z",
+        "created_at": "2023-10-10T06:47:18.328Z",
+        "updated_at": "2023-10-09T19:07:50.119Z",
+        "rental_id": "8b109231-d406-4b92-a961-0fb546312156"
+      },
+      {
+        "id": "e31fcab4-4850-4b36-a980-04fe53ed8bbc",
+        "amount_due": 95855,
+        "payment_status": "Overdue",
+        "due_date": "2023-10-09T17:42:13.198Z",
+        "created_at": "2023-10-10T08:18:53.309Z",
+        "updated_at": "2023-10-09T21:08:38.698Z",
+        "rental_id": "8b109231-d406-4b92-a961-0fb546312156"
+      },
+      {
+        "id": "25743f4a-bade-4ee6-b97a-6973c92af752",
+        "amount_due": 17031,
+        "payment_status": "Cancelled",
+        "due_date": "2023-10-09T17:31:46.003Z",
+        "created_at": "2023-10-10T00:26:37.072Z",
+        "updated_at": "2023-10-10T10:11:40.254Z",
+        "rental_id": "14a13f53-d334-44bd-b9ef-04fbc136bd89"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2282178b-31d9-4463-aca0-e8e2c259c758",
+        "email": "Eloisa98@roq.tech",
+        "firstName": "Serena",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89764169",
+        "tenantId": null
+      },
+      {
+        "reference": "8bdf68b7-0ad3-41ed-836e-88d050cdd00b",
+        "email": "Oleta15@roq.tech",
+        "firstName": "Margie",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65608589",
+        "tenantId": null
+      },
+      {
+        "reference": "806481e5-70a9-461e-be8f-66b0d600018f",
+        "email": "Larue.Abernathy-Bechtelar46@roq.tech",
+        "firstName": "Laisha",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68276421",
+        "tenantId": null
+      },
+      {
+        "reference": "667c99ff-6357-472a-8978-afa9c8864770",
+        "email": "Mariah.Cole@roq.tech",
+        "firstName": "Dewayne",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56276649",
+        "tenantId": null
+      },
+      {
+        "reference": "4e061c43-97ad-4878-a603-854434995ce2",
+        "email": "Dolly80@roq.tech",
+        "firstName": "Charles",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/201.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
